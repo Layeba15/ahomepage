@@ -36,7 +36,7 @@ h1{
   font-size: 5vw;
   text-align: center;
 }
-h3{
+h3, .he1{
   font-size: 3vw;
   margin: 0;
   text-align: center;
@@ -139,10 +139,6 @@ nav img{
   margin: 10px 20px 0 20px;
   position: relative;
   width: 50%;
-}
-.he1{
-  font-size: 3vw;
-  font-style: normal;
 }
 .s71, .s81 p{
   margin: 0 20px 0 20px;
@@ -295,12 +291,12 @@ nav img{
   margin-left: 90px;
   margin-right: 90px;
   padding-top: 10px;
+  font-size: 2vw;
 }
 .main{
   display: flex;
   justify-content: space-between;
   margin: 0 90px 0 90px;
-  font-size: 1vw;
 }
 .s9 hr{
   color: grey;
@@ -388,7 +384,7 @@ table{
 .s1{
   text-align: center;
   background-color: #00ace6;
-  height: 80px;
+  height: 90px;
 }
 .s1 p{
   margin: 0;
@@ -404,7 +400,7 @@ table{
 }
 .center{
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 45%;
   transform: translate(-40%,4%);
 }
@@ -456,174 +452,6 @@ table{
   color: grey;
   margin: 0 10px 0 10px;
   text-align: left;
-  font-size: 2vw;
-  padding-top: 10px;
-}
-.main{
-  display: flex;
-  justify-content: flex-start;
-  margin: 0 90px 0 10px;
-  font-size: 2vw;
-  flex-flow: row wrap;
-}
-.s9 hr{
-  color: grey;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.s9 a{
-  color: black;
-  text-decoration: none;
-}
-.s9 img{
-  height: 20px;
-  width: 20px;
-  border-radius: 30%
-}
-.s9{;
-  margin-top: 20px;
-  background-color: #f2f2f2;
-}
-}
-@media screen and (max-width:360px) {
-  body{
-  margin: 0;
-  font-family: sans-serif;
-}
-a{
-  color: white;
-  text-decoration: none;
-}
-p{
-  text-align: center;
-}
-nav{
-  margin: 0;
-  background-color: #4d4d4d;
-  width: 100%;
-  position: fixed;
-  z-index: 1000;
-  justify-content: center;
-}
-h3, h5{
-  margin: 0;
-}
-.d1{
-  display: flex;
-  list-style: none;
-  justify-content: space-between;
-  color: #ffffff;
-  margin: 0;
-}
-.d2{
-  display: none;
-}
-.d1 img{
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-}
-img{
-  width: 100%;
-}
-table{
-  display: none;
-}
-.div1{
-  display: block;
-  background-color: #ffffff;
-}
-.div2{
-  display: block;
-}
-.div2 select{
-  width: 20vw;
-  border: 0;
-  font-size: 3vw;
-  margin: 5px 0 2px 2px;
-  background-color: #4d4d4d;
-}
-.div1 select{
-  width:90vw;
-  margin: 5px 10px 0 10px;
-  border: 0;
-  background-color: #ffffff;
-}
-.s1{
-  text-align: center;
-  background-color: #00ace6;
-  height: 90px;
-}
-.s1 p{
-  margin: 0;
-  padding: 50px;
-}
-.s3{
-  text-align: center;
-  color: white;
-  position: relative;
-}
-.s2 a{
-  color: blue;
-}
-.center{
-  position: absolute;
-  top: 10%;
-  left: 45%;
-  transform: translate(-40%,1%);
-}
-.center1{
-  position: absolute;
-  top: 50%;
-  left: 45%;
-  transform: translate(-40%,-70%);
-}
-.s4 a{
-  color: blue;
-  text-decoration: none;
-}
-.s4{
-  margin-top: 10px;
-  text-align: center;
-  position: relative;
-}
-.s5 a{
-  color: blue;
-  text-decoration: none;
-}
-.s5{
-  margin-top: 20px;
-  position: relative;
-  text-align: center;
-}
-.s6, .s7, .s8{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-.s61, .s62, .s71, .s72, .s81, .s82{
-  margin:10px 20px 0 20px ;
-  position: relative;
-  width: 100%;
-  text-align: center;
-}
-.s61, .s62,.s71, .s72, .s81, .s82 a{
-  align-items: center;
-}
-.s71 ,.s81 p{
-  margin: 0;
-}
-.he1{
-  font-style: normal;
-}
-.s71,.s81 p{
-  margin: 0;
-}
-.s9 p{
-  color: grey;
-  margin: 0 10px 0 10px;
-  text-align: left;
-  font-size: 2vw;
   padding-top: 10px;
 }
 .main{
