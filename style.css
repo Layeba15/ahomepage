@@ -505,7 +505,7 @@ nav{
   z-index: 1000;
   justify-content: center;
 }
-.h3, .h5{
+h3, h5{
   margin: 0;
 }
 .d1{
@@ -568,9 +568,9 @@ table{
 }
 .center{
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 45%;
-  transform: translate(-40%,2%);
+  transform: translate(-40%,1%);
 }
 .center1{
   position: absolute;
