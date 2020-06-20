@@ -601,7 +601,7 @@ table{
   flex-flow: row wrap;
   justify-content: center;
 }
-.s61, .s62,.s71, .s72, .s81, .s82{
+.s61, .s62, .s71, .s72, .s81, .s82{
   margin:10px 20px 0 20px ;
   position: relative;
   width: 100%;
@@ -609,6 +609,9 @@ table{
 }
 .s61, .s62,.s71, .s72, .s81, .s82 a{
   align-items: center;
+}
+.s71 ,.s81 p{
+  margin: 0;
 }
 .he1{
   font-style: normal;
