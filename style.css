@@ -505,6 +505,9 @@ nav{
   z-index: 1000;
   justify-content: center;
 }
+.h3, .h5{
+  margin: 0;
+}
 .d1{
   display: flex;
   list-style: none;
